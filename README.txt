@@ -21,3 +21,5 @@ If your not sure what your plugin directory is read the following doc please htt
 
 NOTE: All Strings sent to the emojify command must be UTF8, I haven't really tested this with anything except UTF8.
 
+*** Known Issues ***
+Some icons for iOS5 are missing. To support OS5 you will need Unicode 6.0 support.
