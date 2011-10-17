@@ -19,7 +19,9 @@ If you use Smarty template engine you still need to upload the image directory. 
 
 If your not sure what your plugin directory is read the following doc please http://www.smarty.net/docsv2/en/variable.plugins.dir.tpl
 
-NOTE: All Strings sent to the emojify command must be UTF8, I haven't really tested this with anything except UTF8.
+NOTE: All Strings sent to the emojify command must be utf8mb4 to support iOS5 emoji
+
+If your storing the data in a database make sure you collation is set to utf8mb4_general_ci to support iOS5 emoji that are Unicode 6.0
 
 *** Known Issues ***
-Some icons for iOS5 are missing. To support OS5 you will need Unicode 6.0 support.
+Due to a change with iOS5 flags are not support just yet.
