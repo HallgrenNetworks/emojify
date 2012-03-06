@@ -6,7 +6,10 @@ If you've gotten this far in your quest to enable emoji support you've come to t
 the new iOS5 emoji and created a method to replace them in your web site. We've included 4 way to accomplish this task but you must first follow a couple steps.
 
 
-1: Upload the folder /emoji to /images/emoji on your server or change the url in emojify.php, emojify.js, emojify.jquery.js, and modifier.emojify.php 
+1: Upload the folder /emoji to /images/emoji on your server or change the url in emojify.php, emojify.js, emojify.jquery.js, and modifier.emojify.php
+2: Pick your path of deployment: Smarty, PHP, jQuery, or JavaScript.
+3: The code base is pretty simple to run. I believe all calls are emojify($string);
+4: Sit back and relax because it didn't take you 8 14 hour days to figure it out.
 
 If you use Smarty template engine you still need to upload the image directory. But just upload modifier.emojify.php to your plugin directory and simply use {$string|emojify}
 
