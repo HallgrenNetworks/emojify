@@ -1,0 +1,11 @@
+{
+  "name": "Emojify",
+  "version": "1.0.0",
+  "main": ["./emojify.js", "./emojify.jquery.js"],
+  "ignore": [
+      "**/.*"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
